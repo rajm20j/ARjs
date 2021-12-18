@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon --watch \".\" --ext \"ts, json, html\" --exec \"ts-node --project tsconfig.json server.ts\""
+    "start": "npx nodemon --watch \".\" --ext \"ts, json, html, ejs\" --exec \"ts-node --project tsconfig.json server.ts\""
   },
   "author": "",
   "license": "ISC",
